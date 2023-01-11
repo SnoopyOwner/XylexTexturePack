@@ -161,7 +161,6 @@ local empty = debug.getupvalue(hotbartile.render, 6)
 local tween = debug.getupvalue(hotbartile.tweenPosition, 1)
 local hotbarimage = getcustomassetfunc("bedwars/ui/widgets.png")
 local healthimage = getcustomassetfunc("bedwars/ui/icons.png")
-local shopimage = getcustomassetfunc("bedwars/ui/container/generic_54.png")
 local flashing = false
 local realcode = ""
 local oldrendercustommatch = hotbarcustommatchsection.render
